@@ -1,4 +1,21 @@
 
+#course img{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+     border-radius: 5000%;
+     background-color: aqua;
+     border: 10px double green;
+}
+#courses{
+    border-radius: 202%;
+    padding: 25%;
+    background-color: aqua;
+}
+#course{
+    align-items: center;
+    border-radius: 202%;
+}
 
 #about{
     display: flex;
