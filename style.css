@@ -1,3 +1,61 @@
+
+
+#about{
+    display: flex;
+}
+
+.one{
+    width: 50vh;
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+.two img{
+    width: 50vh;
+    border-radius: 40% 0 40% 0;
+}
+.tour img{
+    width: 20vw;
+    height: 180px;
+    padding: 2%;
+
+}
+#tour{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+}
+.tour{
+    padding: 1%;
+    margin: 5px;
+}
+
+#gallery img{
+height: 20vw;
+width: 20vw;
+border: rebeccapurple 2px dashed;
+text-align: center;
+border-radius: 40% 0 40% 0;
+
+}
+#packages{
+    display: flex;
+}
+#gallery{
+    display: flex;
+}
+
+.headings{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    background-color: aqua;
+    text-decoration: double;
+    display: flex;
+    font-family: sans-serif;
+} 
+
 #home-page{
     background-image: url("https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg");
     height: 100vh;
@@ -9,3 +67,4 @@
     font-style: italic;
     font-weight: bolder;
 }
+
