@@ -51,7 +51,7 @@
 height: 20vw;
 width: 20vw;
 border: rebeccapurple 2px dashed;
-text-align: center;
+text-align: justify;
 border-radius: 40% 0 40% 0;
 
 }
@@ -73,6 +73,29 @@ border-radius: 40% 0 40% 0;
     font-family: sans-serif;
 } 
 
+#testimonials{
+    display: flex;
+}
+
+.testimony-img{
+    height: 200px;
+    width: 20opx;
+    background-color: aquamarine;
+    justify-items: first baseline;
+    border-image-repeat: repeat;
+
+    
+}
+.test-section{
+    display: flex;
+}
+.test-section p{
+    width: 20vw;
+    text-decoration: double;
+    justify-content: space-around;
+    text-decoration-color: blueviolet;
+    text-decoration: dotted;
+}
 #home-page{
     background-image: url("https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg");
     height: 100vh;
