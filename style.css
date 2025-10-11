@@ -1,4 +1,22 @@
 
+#course img{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+     border-radius: 5000%;
+     background-color: aqua;
+     border: 10px double green;
+}
+#courses{
+    border-radius: 202%;
+    padding: 25%;
+    background-color: aqua;
+}
+#course{
+    align-items: center;
+    border-radius: 202%;
+}
+
 #about{
     display: flex;
 }
@@ -78,3 +96,15 @@ border-radius: 40% 0 40% 0;
     text-decoration-color: blueviolet;
     text-decoration: dotted;
 }
+#home-page{
+    background-image: url("https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(0, 243, 0);
+    font-style: italic;
+    font-weight: bolder;
+}
+
