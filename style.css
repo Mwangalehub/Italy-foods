@@ -1,11 +1,19 @@
-
-#{
+#course img{
+    height: 40vh;
     display: flex;
-    justify-content: center;
-    width: 80vw;
-    height: 20vw;
-    font-family:sans-serif ;
-
-
+    align-items: center;
+     border-radius: 5000%;
+     background-color: aqua;
+     border: 10px double green;
 }
+#courses{
+    border-radius: 202%;
+    padding: 25%;
+    background-color: aqua;
+}
+#course{
+    align-items: center;
+    border-radius: 202%;
+}
+
 
