@@ -1,20 +1,24 @@
 
 #course img{
-    height: 40vh;
+    height: 140vh;
     display: flex;
     align-items: center;
-     border-radius: 5000%;
-     background-color: aqua;
-     border: 10px double green;
+     border: 9px double green;
+     text-align: center;
+     color: green;
+     position: relative;
 }
 #courses{
-    border-radius: 202%;
-    padding: 25%;
-    background-color: aqua;
+   text-align: center;
+   align-items: center;
+    color: black;
+    font-weight: 900;
+    font-style: italic;
 }
 #course{
     align-items: center;
     border-radius: 202%;
+    align-items: center;
 }
 
 #about{
@@ -28,7 +32,7 @@
 }
 
 .two img{
-    width: 50vh;
+    width: 150vh;
     border-radius: 40% 0 40% 0;
 }
 .tour img{
@@ -48,7 +52,7 @@
 }
 
 #gallery img{
-height: 20vw;
+height: 80vw;
 width: 20vw;
 border: rebeccapurple 2px dashed;
 text-align: justify;
@@ -83,6 +87,7 @@ border-radius: 40% 0 40% 0;
     background-color: aquamarine;
     justify-items: first baseline;
     border-image-repeat: repeat;
+    border: 30px green double;
 
     
 }
@@ -107,4 +112,14 @@ border-radius: 40% 0 40% 0;
     font-style: italic;
     font-weight: bolder;
 }
-
+body{
+    background-color:aqua;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 4%;
+    color: aqua;
+    background-color: green;
+}
