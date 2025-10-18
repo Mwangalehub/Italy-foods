@@ -1,3 +1,4 @@
+
 #nav ul{
     display: flex;
     justify-content: space-around;
@@ -30,3 +31,140 @@ table th{
     width: 20px;
     border-style: groove;
 }
+
+#course img{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+     border-radius: 5000%;
+     background-color: aqua;
+     border: 10px double green;
+}
+#courses{
+    border-radius: 202%;
+    padding: 25%;
+    background-color: aqua;
+}
+#course{
+    align-items: center;
+    border-radius: 202%;
+}
+
+#about{
+    display: flex;
+}
+
+.one{
+    width: 50vh;
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+.two img{
+    width: 50vh;
+    border-radius: 40% 0 40% 0;
+}
+.tour img{
+    width: 20vw;
+    height: 180px;
+    padding: 2%;
+
+}
+#tour{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+}
+.tour{
+    padding: 1%;
+    margin: 5px;
+}
+
+#gallery img{
+height: 20vw;
+width: 20vw;
+border: rebeccapurple 2px dashed;
+text-align: justify;
+border-radius: 40% 0 40% 0;
+
+}
+#packages{
+    display: flex;
+}
+#gallery{
+    display: flex;
+}
+
+.headings{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    background-color: aqua;
+    text-decoration: double;
+    display: flex;
+    font-family: sans-serif;
+} 
+
+#testimonials{
+    display: flex;
+}
+
+.testimony-img{
+    height: 200px;
+    width: 20opx;
+    background-color: aquamarine;
+    justify-items: first baseline;
+    border-image-repeat: repeat;
+
+    
+}
+.test-section{
+    display: flex;
+}
+.test-section p{
+    width: 20vw;
+    text-decoration: double;
+    justify-content: space-around;
+    text-decoration-color: blueviolet;
+    text-decoration: dotted;
+}
+#home-page{
+    background-image: url("https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(0, 243, 0);
+    font-style: italic;
+    font-weight: bolder;
+}
+#footer{
+   text-align: center;
+    background-color: blue;
+    font-family: sans-serif;
+    background-color:green;
+    color:black;
+     padding: 2%;
+    margin-top: 2%;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
