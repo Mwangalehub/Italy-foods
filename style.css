@@ -1,0 +1,32 @@
+#nav ul{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px;
+    background-color: rgb(22, 238, 14);
+    padding: 2%;
+    box-shadow: 2px;
+}
+
+#nav a{
+        text-decoration: none;
+        color: aqua;
+}
+#contact{
+    justify-content: space-between;
+    text-align: center;
+}
+td{
+    color: green;
+    width: 30px;
+    border-style: groove;
+}
+tr{
+    border: green 3px groove;
+}
+table th{
+    background-color: aqua;
+    padding: 2%;
+    color: green;
+    width: 20px;
+    border-style: groove;
+}
