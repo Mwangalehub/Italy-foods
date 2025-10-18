@@ -1,4 +1,5 @@
 
+
 #course img{
     height: 140vh;
     display: flex;
@@ -25,13 +26,13 @@
     display: flex;
 }
 
-.one{
+.about-one{
     width: 50vh;
     padding: 5%;
     font-family: sans-serif;
 }
 
-.two img{
+.about-two img{
     width: 150vh;
     border-radius: 40% 0 40% 0;
 }
@@ -116,10 +117,181 @@ body{
     background-color:aqua;
 }
 #nav{
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    padding: 4%;
-    color: aqua;
     background-color: green;
 }
+
+#nav ul{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px;
+    background-color: rgb(22, 238, 14);
+    padding: 2%;
+    list-style: none;
+}
+
+#nav a{
+        text-decoration: none;
+        color: rgb(5, 5, 29);
+        text-transform: capitalize;
+}
+table{
+    width: 60pc;
+}
+#contact{
+    justify-content: space-between;
+    text-align: center;
+    width: 200px;
+}
+td{
+    color: green;
+    width: 30px;
+    border-style: groove;
+}
+tr{
+    border: green 3px groove;
+    width: 30px;
+}
+ th{
+    background-color: green;
+    padding: 2%;
+    color: aqua;
+    width: 20px;
+    border-style: groove;
+    align-items: center;
+}
+
+#course img{
+    height: 40vh;
+     border-radius: 50%;
+     background-color: aqua;
+     border: 10px double green;
+     align-self: center;
+}
+#courses{
+    display: flex;
+    flex-direction: column;
+    border-radius: 202%;
+    background-color: aqua;
+}
+#course{
+    align-items: center;
+    border-radius: 202%;
+}
+
+#about{
+    display: flex;
+}
+
+.one{
+    width: 50vh;
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+.two img{
+    width: 50vh;
+    border-radius: 40% 0 40% 0;
+}
+.tour img{
+    width: 20vw;
+    height: 180px;
+    padding: 2%;
+
+}
+#tour{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+}
+.tour{
+    padding: 1%;
+    margin: 5px;
+}
+
+#gallery img{
+height: 20vw;
+width: 20vw;
+border: rebeccapurple 2px dashed;
+text-align: justify;
+border-radius: 40% 0 40% 0;
+
+}
+#packages{
+    display: flex;
+}
+#gallery{
+    display: flex;
+}
+
+.headings{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    background-color: aqua;
+    text-decoration: double;
+    display: flex;
+    font-family: sans-serif;
+} 
+
+#testimonials{
+    display: flex;
+}
+
+.testimony-img{
+    height: 200px;
+    width: 20opx;
+    background-color: aquamarine;
+    justify-items: first baseline;
+    border-image-repeat: repeat;
+
+    
+}
+.test-section{
+    display: flex;
+}
+.test-section p{
+    width: 20vw;
+    text-decoration: double;
+    justify-content: space-around;
+    text-decoration-color: blueviolet;
+    text-decoration: dotted;
+}
+#home-page{
+    background-image: url("https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(0, 243, 0);
+    font-style: italic;
+    font-weight: bolder;
+}
+#footer{
+   text-align: center;
+    background-color: blue;
+    font-family: sans-serif;
+    background-color:green;
+    color:black;
+     padding: 2%;
+    margin-top: 2%;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
